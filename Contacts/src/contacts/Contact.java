@@ -14,6 +14,8 @@ public class Contact {
     private String lastName;
     private String phoneNumber;
     private String emailAddress;
+    
+    
 
     public Contact(String firstName, String lastName, String phoneNumber, String emailAddress) {
         this.firstName = firstName;
@@ -23,6 +25,14 @@ public class Contact {
     }
     
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName+  " " + phoneNumber + " " + emailAddress;
+    }
+
+    String getFirstName() {
+        return firstName; //To change body of generated methods, choose Tools | Templates.
+    }
+
+    String getLastName() {
+        return lastName; //To change body of generated methods, choose Tools | Templates.
     }
 }
